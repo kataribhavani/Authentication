@@ -150,6 +150,10 @@ app.post("/authenticate", async (req, res) => {
   }
 });
 
+app.get("/",(_, res)=> {
+  res.send('Welcome to fingerprint backend');
+});
+
 const server = http.createServer(app);
 
 server.listen(8080, "0.0.0.0", () => {
