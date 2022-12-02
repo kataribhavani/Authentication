@@ -5,7 +5,9 @@ function RegisterCredentials() {
   const [isRegSuccess, setRegSuccess] = useState();
   const [isAuthSuccess, setAuthSuccess] = useState();
   const [status, setStatus] = useState(null);
-  const apiUrl = "http://localhost:8080";
+  const apiUrl = "http://ec2-15-206-93-225.ap-south-1.compute.amazonaws.com:8080";
+  // const apiUrl = "http://localhost:8080";
+
   const bufferToBase64 = (buffer) =>
     btoa(String.fromCharCode(...new Uint8Array(buffer)));
   const base64ToBuffer = (base64) =>
