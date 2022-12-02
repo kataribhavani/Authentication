@@ -23,7 +23,7 @@ const fido = new Fido2Lib({
   authenticatorUserVerification: "required",
 });
 
-const origin = "http://ec2-15-206-93-225.ap-south-1.compute.amazonaws.com:3000";
+const origin = "http://localhost:3000";
 
 const app = express();
 
