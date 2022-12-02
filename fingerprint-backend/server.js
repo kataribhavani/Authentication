@@ -23,7 +23,7 @@ const fido = new Fido2Lib({
   authenticatorUserVerification: "required",
 });
 
-const origin = "http://localhost:3000";
+const origin = "http://localhost:3000https://fluffy-seahorse-596e67.netlify.app/";
 
 const app = express();
 
